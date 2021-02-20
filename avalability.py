@@ -11,7 +11,7 @@ if user_mode == "A":
     formatted_availability = "{:.4f}".format(availability)
     print(formatted_availability,"%")
 elif user_mode == "B":
-    print("choose a time period : a day or a hour   ")
+    print("choose  duration : a day or a hour   ")
     user_choice = input("choose time period :..")
 
     minutes_day = 1440
